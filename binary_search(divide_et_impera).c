@@ -27,13 +27,6 @@ int main ()
     
     valore = ric_bin_DI(a,chiave,0,n);
     
-    getchar();
-    
-    printf("\n***%d    \n\n",valore);
-    
-    getchar();
-    
-    
     if(valore >=0)
         printf("\nYes,your key is IN\n");
     
