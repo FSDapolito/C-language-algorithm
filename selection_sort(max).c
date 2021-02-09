@@ -9,7 +9,7 @@ int main ()
 {
   int *a,i,n; 
   
-  a = (int *) malloc (sizeof(int*)); 
+  a = (int *) malloc (sizeof(int)); 
   
   if(a==NULL)
   printf("\nFailed allocation\n"); 
